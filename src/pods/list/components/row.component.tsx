@@ -12,8 +12,7 @@ export const RowComponent: React.FunctionComponent<Props> = (props) => {
 
   return (
     <TableRow>
-      <TableCell>{member.id}</TableCell>
-      <TableCell>{member.name}</TableCell>
+      <TableCell>{member.id}</TableCell>a<TableCell>{member.name}</TableCell>
       <TableCell>
         <img className={classes.image} src={member.imageUrl} />
       </TableCell>
